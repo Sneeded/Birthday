@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f0f5;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.gallery, .art, .message {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-container, .art-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img, .art img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover, .art img:hover {
+    transform: scale(1.1);
+}
+
+.message p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
